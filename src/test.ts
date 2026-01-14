@@ -3,6 +3,7 @@
  * Tests all valid Facebook Graph API tools
  */
 import { GraphApiClient, graphConfig } from "@meta-mcp/core";
+import { FacebookManager } from "./manager";
 
 interface TestResult {
     tool: string;
